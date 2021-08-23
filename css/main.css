@@ -1,0 +1,553 @@
+/* Variables */
+/* grid de informaciones */
+.informaciones {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-evenly;
+  padding-bottom: 2rem;
+  text-align: center;
+  padding: 2rem;
+  width: 100%; }
+
+div div img {
+  width: 80px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.infoTitulo {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 2rem; }
+
+div div p {
+  font-size: 1.5rem; }
+
+.iconoMovil {
+  transition: 1s; }
+
+.iconoMovil:hover {
+  transform: rotate(15deg); }
+
+/* Sobre Nosotros */
+.historia {
+  color: #FFFFFF;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url("../Imagenes/historia.jpeg");
+  background-position: center center;
+  background-size: cover;
+  padding-bottom: 4rem;
+  padding-top: 4rem; }
+
+div h2 {
+  font-weight: bold;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  text-transform: uppercase; }
+
+.historia2 {
+  font-size: 1.5rem; }
+
+.historia3 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  background-color: rgba(43, 77, 56, 0.5);
+  padding: 2rem;
+  transition: 0.8s; }
+
+.historia3:hover {
+  transform: scale(1.2, 1.2); }
+
+/* Marcas con las que trabajamos*/
+.marcasConLasQueTrabajamos {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #000000;
+  background-color: #FFFFFF;
+  font-weight: bold;
+  padding-top: 3rem; }
+
+.flexMarcas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: transparent; }
+
+@media (max-width: 600px) {
+  .informaciones {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding-bottom: 1rem;
+    text-align: center;
+    padding: 2rem;
+    background-color: #cccccc; }
+  .flexMarcas {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+.proteTexto {
+  text-align: center;
+  font-size: 1.5rem; }
+
+.proteinasImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.imgProt {
+  width: 300px;
+  height: auto;
+  align-items: center;
+  transition: 0,8s; }
+
+.imgProt:hover {
+  transform: scale(0.8, 0.8); }
+
+.gridQuienesContacto {
+  display: grid;
+  grid-template-areas: "imagen imagen" "h2 h2" "article article" "mision vision" "textoMision textoVision";
+  grid-template-columns: 1fr 1fr;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  height: auto;
+  justify-content: center;
+  line-height: 2rem; }
+
+.fotoHistoria {
+  grid-area: imagen; }
+
+.quienesSomos {
+  grid-area: h2;
+  text-transform: uppercase;
+  text-align: center; }
+
+.textoQuienesSomos {
+  grid-area: article;
+  text-align: center; }
+
+.mision {
+  grid-area: mision;
+  text-transform: uppercase;
+  text-align: center; }
+
+.textoMision {
+  grid-area: textoMision; }
+
+.vision {
+  grid-area: vision;
+  text-transform: uppercase;
+  text-align: center; }
+
+.textoVision {
+  grid-area: textoVision; }
+
+.div1 {
+  grid-area: h2;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  background-color: black;
+  color: white;
+  line-height: 1.6; }
+
+.div2 {
+  grid-area: mision;
+  font-size: 1.5rem;
+  padding-left: 3rem;
+  text-align: left;
+  background-color: black;
+  color: white;
+  padding-bottom: 5rem;
+  line-height: 1.6; }
+
+.div3 {
+  grid-area: vision;
+  font-size: 1.5rem;
+  padding-right: 3rem;
+  text-align: left;
+  background-color: black;
+  color: white;
+  padding-bottom: 5rem;
+  line-height: 1.6; }
+
+nav {
+  grid-area: contacto; }
+
+footer {
+  grid-area: footer; }
+
+.Contacto {
+  font-size: 1.6rem;
+  text-align: center; }
+
+.proteTexto {
+  text-align: center;
+  font-size: 1.5rem; }
+
+.proteinasImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.imgProt {
+  width: 300px;
+  height: auto;
+  align-items: center;
+  transition: 0,8s; }
+
+.imgProt:hover {
+  transform: scale(0.8, 0.8); }
+
+.frenosMecanicosTitulo {
+  text-align: center;
+  padding-top: 3rem; }
+
+.frenosMecanicosDescrip {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem; }
+
+.pinturaHorno {
+  text-align: center;
+  padding-top: 3rem; }
+
+.fondoMantenciones--frenosMecanicos {
+  background-color: #cccccc; }
+
+.fondoMantenciones--frenosHidraulicos {
+  background-color: #FFFFFF; }
+
+.fondoMantenciones--pintura {
+  background-color: #A8D47A; }
+
+/*Valores Ruedas*/
+.valoresRuedas {
+  display: grid;
+  grid-template-areas: "basico competicion" "valor1 valor2" "lista1 lista2" "p1 p2";
+  grid-template-columns: 1fr 1fr;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #dbdada; }
+
+.basico {
+  grid-area: basico;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold; }
+
+.valor1 {
+  grid-area: valor1;
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 4rem; }
+
+.competicion {
+  grid-area: competicion;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold; }
+
+.valor2 {
+  grid-area: valor2;
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 4rem; }
+
+.lista1 {
+  grid-area: lista1;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 1.5rem;
+  justify-content: center;
+  line-height: 2rem;
+  list-style-position: inside;
+  padding-left: 20px;
+  width: 90%; }
+
+.lista2 {
+  grid-area: lista2;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 1.5rem;
+  justify-content: center;
+  line-height: 2rem;
+  list-style-position: inside;
+  padding-left: 20px;
+  width: 90%; }
+
+.p1 {
+  grid-area: p1;
+  color: gray;
+  font-size: 1.5rem; }
+
+.p2 {
+  grid-area: p2;
+  color: gray;
+  font-size: 1.5rem; }
+
+.valoresCambios {
+  display: flex;
+  font-size: 1em; }
+
+.valoresDiv {
+  font-size: 1em;
+  text-align: left; }
+
+.valorCambios {
+  grid-area: valor1;
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 4rem; }
+
+.ulCambios {
+  font-size: 1.5rem; }
+
+.valoresFrenos {
+  display: grid;
+  grid-template-areas: "Mecanico Hidraulico" "valor1 valor2" "lista1 lista2" "p1 p2";
+  grid-template-columns: 1fr 1fr;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #dbdada; }
+
+.mecanico {
+  grid-area: Mecanico;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold; }
+
+.hidraulico {
+  grid-area: Hidraulico;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold; }
+
+.valor1 {
+  grid-area: valor1;
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 4rem; }
+
+.valor2 {
+  grid-area: valor2;
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 4rem; }
+
+.lista1 {
+  grid-area: lista1;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 1.5rem;
+  justify-content: center;
+  line-height: 2rem;
+  list-style-position: inside;
+  padding-left: 20px;
+  width: 90%; }
+
+.lista2 {
+  grid-area: lista2;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 1.5rem;
+  justify-content: center;
+  line-height: 2rem;
+  list-style-position: inside;
+  padding-left: 20px;
+  width: 90%; }
+
+.p1 {
+  grid-area: p1;
+  color: gray;
+  font-size: 1.5rem; }
+
+.p2 {
+  grid-area: p2;
+  color: gray;
+  font-size: 1.5rem; }
+
+/* servicio tecnico autorizado trek*/
+.divtrek {
+  display: grid;
+  grid-template-areas: "header header" "h2 h2" "img texto" "footer footer";
+  grid-template-columns: 1fr 2fr;
+  box-sizing: border-box; }
+
+header {
+  grid-area: header; }
+
+h2 {
+  grid-area: h2; }
+
+img {
+  grid-area: img; }
+
+article {
+  grid-area: texto; }
+
+footer {
+  grid-area: footer; }
+
+.servAut {
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem; }
+
+img {
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: center; }
+
+.textoTrek {
+  display: flex;
+  background-color: #000000;
+  color: #FFFFFF;
+  text-align: left;
+  font-size: 1.5rem;
+  flex-direction: column;
+  text-align: left;
+  height: auto;
+  justify-content: center;
+  line-height: 2rem; }
+
+p {
+  padding: 10px; }
+
+article ol {
+  list-style-position: inside;
+  padding-left: 20px;
+  width: 90%; }
+
+.comoFuncionaGarantia {
+  font-weight: bolder;
+  font-size: 1.8rem; }
+
+/* servicio tecnico autorizado trek*/
+/*Variables*/
+* {
+  margin: 0;
+  padding: 0;
+  border: solid 1px red;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+/* nabarrrrrr*/
+nav a img {
+  width: 200px; }
+
+nav a ul li {
+  background-color: #000000;
+  color: #000000; }
+
+header {
+  text-transform: uppercase;
+  justify-content: space-around;
+  color: #000000;
+  font-size: 1.5rem;
+  justify-content: space-evenly; }
+
+/*Footerr*/
+footer {
+  font-size: 1.5rem;
+  background-color: #000000;
+  color: #FFFFFF; }
+
+footer h6 {
+  font-size: 1.5rem;
+  text-align: center; }
+
+.h1 {
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 3rem;
+  text-align: center; }
+
+h2 {
+  text-transform: uppercase;
+  font-size: 2rem; }
+
+/* Contacto y sobre nosotros */
+.gridQuienesContacto {
+  display: grid;
+  grid-template-areas: "header header" "imagen imagen" "h2 h2" "article article" "mision vision" "contacto contacto" "footer footer";
+  grid-template-columns: 1fr 1fr;
+  box-sizing: border-box; }
+
+header {
+  grid-area: header; }
+
+.fachada {
+  grid-area: imagen; }
+
+.div1 {
+  grid-area: h2;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  background-color: #000000;
+  color: #000000;
+  line-height: 1.6; }
+
+.div2 {
+  grid-area: mision;
+  font-size: 1.5rem;
+  padding-left: 3rem;
+  text-align: left;
+  background-color: black;
+  color: white;
+  padding-bottom: 5rem;
+  line-height: 1.6; }
+
+.div3 {
+  grid-area: vision;
+  font-size: 1.5rem;
+  padding-right: 3rem;
+  text-align: left;
+  background-color: black;
+  color: white;
+  padding-bottom: 5rem;
+  line-height: 1.6; }
+
+nav {
+  grid-area: contacto; }
+
+footer {
+  grid-area: footer; }
+
+.mayusculas {
+  text-transform: uppercase; }
+
+.Contacto {
+  font-size: 1.6rem;
+  text-align: center; }

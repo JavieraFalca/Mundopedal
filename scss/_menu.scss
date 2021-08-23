@@ -1,0 +1,117 @@
+/* grid de informaciones */
+
+.informaciones{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+}
+
+div div img{
+    width: 80px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.infoTitulo{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+div div p{
+    font-size: 1.5rem;
+}
+.iconoMovil{
+    transition: 1s;
+}
+.iconoMovil:hover{
+    transform: rotate(15deg)
+}
+
+
+
+/* Sobre Nosotros */
+.historia{
+    color: $blanco;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.4)),url("../Imagenes/historia.jpeg");
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+
+div h2{
+font-weight: bold;
+padding-top: 3rem;
+padding-bottom: 2rem;
+text-transform: uppercase;
+}
+.historia2{
+font-size: 1.5rem;
+}
+.historia3{
+font-size: 1.8rem;
+text-transform: uppercase;
+font-weight: bolder;
+background-color:rgba(43,77,56,0.5);
+padding: 2rem;
+transition: 0.8s;
+}
+.historia3:hover{
+transform: scale(1.2,1.2);
+}
+
+
+/* Marcas con las que trabajamos*/
+.marcasConLasQueTrabajamos {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    color: $negro;
+    background-color: $blanco;
+    font-weight: bold;
+    padding-top: 3rem;
+}
+.flexMarcas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: transparent;
+}
+
+$ancho:1500px;
+@media (max-width: 600px){
+    .informaciones{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        padding-bottom: 1rem;
+        text-align: center;
+        padding: 2rem;
+
+        @if $ancho < 600px 
+        {
+        background-color: $blanco;
+            }
+        @else {
+            background-color: $gris;
+        }
+
+    }
+
+    .flexMarcas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Taller de bicicletas y venta de repuestos y accesorios">
+    <meta name="keywords" content="BICICLETAS, TALLER DE BICICLETAS, REPUESTOS, ACCESORIOS, PROTEINAS, SANTIAGO, MAIPU, PEDAL, FIXIES, MANTENCIONES COMPLETAS, ENDURO, DOWNHILL, MOVIMIENTO CICLISTA"> 
+        <title>Mundopedal</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/main.css">
+      </head>
+<body>
+<!--MENU-->
+<header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+          <a class="navbar-brand" href="#"> <img src="./Imagenes/logoMundopedal.png" alt="Mundopedal"> </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            
+            <ul class="navbar-nav justify-content-evenly w-100">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./categorias/accesorios.html">Accesorios</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./categorias/proteinas.html">Proteinas</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicio tecnico
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="./categorias/mantenciones.html">Mantenciones</a></li>
+                  <li><a class="dropdown-item" href="./categorias/servicio-tecnico-valores.html">Valores</a></li>
+                  <li><a class="dropdown-item" href="./categorias/servicio-tecnico-valores.html">Servicio técnico autorizado</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+<!--MENU-->
+
+<!---------------------- CARRUSEL ------------->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+    
+        <div class="carousel-item active">
+            <a href="./categorias/bicicletas.html">
+                <img src="./Imagenes/30x8.jpg" class="d-block w-100" alt="Fixies">
+            </a>
+        </div>
+
+        <div class="carousel-item">
+            <a href="./categorias/proteinas.html">
+                <img src="./Imagenes/30x8_prote.jpg" class="d-block w-100" alt="The Good Shaman">
+            </a>
+        </div>
+
+        <div class="carousel-item">
+            <a href="./categorias/servicioTecnico.html">
+                <img src="Imagenes/30x8_serviciotecnico.jpg" class="d-block w-100" alt="..Servicio Tecnico">
+            </a>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!---------------------- CARRUSEL ------------->
+
+<!--ESPACIO PARA TEXTO ENVIOS Y COVID CON ICONOS EXPLICATIVOS-->
+
+<div class="informaciones">
+    <div>
+        <img class="iconoMovil" style="width:80px; height:auto" src="./Imagenes/covid19.png" alt="Covid">
+        <h3 class="infoTitulo">Covid-19</h3>
+        <p>En Mundopedal estamos atendiendo con todas las medidas sanitarias correspondientes</p>
+    </div>
+    <div>
+        <img class="iconoMovil" style="width:80px; height:auto" src="./Imagenes/consultas.png" alt="Consultas">
+        <h3 class="infoTitulo">Consultas</h3>
+        <p>Cualquier duda no dudes en contactarnos por Instagram, Whatsapp o Teléfono</p>
+    </div>
+    <div>
+        <img class="iconoMovil" style="width:auto; height:80px" src="./Imagenes/bicimensajero.png" alt="Envios en Santiago">
+        <h3 class="infoTitulo">Santiago</h3>
+        <p>Realizamos con envios con, Chilexpress, bici mensajeros Werken o retiro en nuestro local</p>
+    </div>
+    <div>
+        <img class="iconoMovil" style="width:80px; height:auto" src="./Imagenes/enviosChile.png" alt="Envios en Chile">
+        <h3 class="infoTitulo">Regiones</h3>
+        <p>Para el resto de las regiones contamos con envíos mediante Chilexpress</p>
+    </div>
+
+</div>
+
+<!--ESPACIO PARA TEXTO ENVIOS Y COVID CON ICONOS EXPLICATIVOS-->
+
+<!--HISTORIA DE MUNDOPEDAL CON IMAGEN DE FONDO-->
+<div class="historia">
+
+    <h2>En Mundopedal somos especialistas en bicicletas</h2>
+        <p class="historia2">Contamos con más de 15 años de experiencia en el rubro de las bicicletas</p>
+        <p class="historia3"><a href="./categorias/contacto.html">Sobre nosotros</a></p>
+
+</div>
+
+
+<!--HISTORIA DE MUNDOPEDAL CON IMAGEN DE FONDO-->
+<!---LINK CON IMAGEN  PARA RESERVA DE HORAS PARA MANTENCION-->
+
+
+
+<!---IMAGENES PEQUEÑAS DE LOS LOGOS Y UNA AL LADO DE OTRA CON LA MARCA ABAJO-->
+<h3 class="marcasConLasQueTrabajamos">Marcas con las que trabajamos</h3>
+    <section class="flexMarcas marcasConLasQueTrabajamos">
+        <img style="width:120px; height:auto"; src="./Imagenes/Shaman_50x50.png" alt="The Good Shaman"> 
+        <img style="width:120px; height:auto"; src="./Imagenes/Trek_50x50.png"   alt="Trek"> 
+        <img style="width:120px; height:auto"; src="./Imagenes/igpsport_50x50.png" alt="iGpSport"> 
+        <img style="width:120px; height:auto"; src="./Imagenes/Werken_50x50.png" alt="Werken Mensajeria en bicicleta"> 
+        <img style="width:120px; height:auto"; src="./Imagenes/shimano_50x50.png" alt="Shimano"> 
+        <img style="width:120px; height:auto"; src="./Imagenes/SunRace_50x50.png" alt="SunRace">
+        <img style="width:120px; height:auto"; src="./Imagenes/zefal_50x50.png" alt="Zefal">
+    </section>
+
+
+    
+
+<!-- Footer -->
+<footer class="text-center text-lg-start">
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Mundopedal
+            </h6>
+            <p>
+              Especialistas en bicicletas
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Legal
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Politica de privacidad</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Politica de cookies</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Preguntas frecuentes</a>
+            </p>
+            <p>
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Informacion
+            </h6>
+            <p><i class="fas fa-home me-3"></i> San Alberto Hurtado 870 - Maipu</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              Ventas@mundopedal.cl
+            </p>
+            <p><i class="fas fa-phone me-3"></i> +56 957391109</p>
+            <p><i class="fas fa-print me-3"></i> Lúnes a Sabado de 10:00 a 19:00hrs</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  </footer>
+  <!-- Footer -->
+
+
+
+<script src="js/bootstrap.min.js"></script>
+    </body>
+
+
+</html>

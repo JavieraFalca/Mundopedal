@@ -1,0 +1,68 @@
+/* servicio tecnico autorizado trek*/
+
+.divtrek{
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "h2 h2"
+        "img texto"
+        "footer footer";
+    grid-template-columns: 1fr 2fr;
+    box-sizing: border-box;
+}
+header{
+    grid-area: header;
+}
+h2{
+    grid-area: h2;
+}
+img{
+    grid-area: img;
+}
+article{
+    grid-area: texto;
+}
+footer{
+    grid-area: footer;
+}
+
+.servAut {
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+img{
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.textoTrek{
+    display: flex;
+    background-color: $negro;
+    color: $blanco;
+    text-align: left;
+    font-size: 1.5rem;
+    flex-direction: column;
+    text-align: left;
+    height: auto;
+    justify-content: center;
+    line-height: 2rem;
+}
+p{
+    padding: 10px;
+}
+article ol{
+    list-style-position: inside; 
+    padding-left: 20px;
+    width: 90%;
+}
+
+.comoFuncionaGarantia{
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+/* servicio tecnico autorizado trek*/

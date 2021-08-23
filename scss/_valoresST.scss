@@ -1,0 +1,173 @@
+/*Valores Ruedas*/
+.valoresRuedas{
+    display: grid;
+    grid-template-areas:
+    "basico competicion"
+    "valor1 valor2"
+    "lista1 lista2"
+    "p1 p2";
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(219, 218, 218);
+}
+
+.basico{
+    grid-area: basico;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+.valor1{
+    grid-area: valor1;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 4rem;
+}
+.competicion{
+    grid-area: competicion;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+.valor2{
+    grid-area: valor2;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+}
+.lista1{
+    grid-area: lista1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1.5rem;
+    justify-content: center;
+    line-height: 2rem;
+    list-style-position: inside; 
+    padding-left: 20px;
+    width: 90%;
+
+}
+.lista2{
+    grid-area: lista2;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1.5rem;
+    justify-content: center;
+    line-height: 2rem;
+    list-style-position: inside; 
+    padding-left: 20px;
+    width: 90%;
+}
+.p1{
+    grid-area: p1;
+    color: gray;
+    font-size: 1.5rem;
+}
+.p2{
+    grid-area: p2;
+    color: gray;
+    font-size: 1.5rem;
+}
+
+.valoresCambios{
+   display: flex;
+   font-size: 1em;
+}
+.valoresDiv{
+font-size: 1em;
+text-align: left;
+}
+.valorCambios{
+    grid-area: valor1;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 4rem;
+}
+.ulCambios{
+    font-size: 1.5rem;
+}
+
+.valoresFrenos{
+    display: grid;
+    grid-template-areas:
+    "Mecanico Hidraulico"
+    "valor1 valor2"
+    "lista1 lista2"
+    "p1 p2";
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(219, 218, 218);
+}
+
+.mecanico{
+    grid-area: Mecanico;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+.hidraulico{
+    grid-area: Hidraulico;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.valor1{
+    grid-area: valor1;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 4rem;
+}
+
+.valor2{
+    grid-area: valor2;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+}
+.lista1{
+    grid-area: lista1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1.5rem;
+    justify-content: center;
+    line-height: 2rem;
+    list-style-position: inside; 
+    padding-left: 20px;
+    width: 90%;
+
+}
+.lista2{
+    grid-area: lista2;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1.5rem;
+    justify-content: center;
+    line-height: 2rem;
+    list-style-position: inside; 
+    padding-left: 20px;
+    width: 90%;
+}
+.p1{
+    grid-area: p1;
+    color: gray;
+    font-size: 1.5rem;
+}
+.p2{
+    grid-area: p2;
+    color: gray;
+    font-size: 1.5rem;
+}

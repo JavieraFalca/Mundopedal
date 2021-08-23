@@ -1,0 +1,27 @@
+.frenosMecanicosTitulo{
+    text-align: center;
+    padding-top: 3rem;
+}
+.frenosMecanicosDescrip{
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.pinturaHorno
+{
+    text-align: center;
+    padding-top: 3rem;
+
+}
+    $mantenciones: 
+    (frenosMecanicos: $gris, 
+    frenosHidraulicos: $blanco, 
+    pintura: $verdeClaro
+    );
+
+    @each $manten, $color in $mantenciones{
+        .fondoMantenciones--#{$manten}{
+            background-color: $color;
+        }
+    
+}

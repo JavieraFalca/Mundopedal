@@ -1,0 +1,18 @@
+.proteTexto{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.proteinasImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.imgProt{
+    width: 300px;
+    height: auto;
+    align-items: center;
+    transition: 0,8s;
+}
+.imgProt:hover{
+    transform: scale(0.8,0.8);
+}

@@ -1,0 +1,144 @@
+/* Variables */ 
+@import "colores";
+@import "menu";
+@import "proteinas";
+@import "historiayContacto";
+@import "accesorios";
+@import "mantenciones";
+@import "valoresST";
+@import "servicioAutorizadoTrek";
+
+
+/*Variables*/
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: solid 1px red;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* nabarrrrrr*/
+nav a img{
+    width: 200px;
+}
+nav a ul li{
+    background-color: $negro;
+    color: $negro;
+}
+header{
+    text-transform: uppercase;
+    justify-content: space-around;
+    color: $negro;
+    font-size: 1.5rem;
+    justify-content: space-evenly;
+
+}
+
+/*Footerr*/ 
+footer{
+    font-size: 1.5rem;
+    background-color: $negro;
+    color: $blanco;
+}
+footer h6{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.h1 {
+    color: $negro;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+
+
+/* Contacto y sobre nosotros */
+.gridQuienesContacto{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "imagen imagen"
+    "h2 h2"
+    "article article"
+    "mision vision"
+    "contacto contacto"
+    "footer footer";
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+
+
+}
+header{
+    grid-area: header;
+}
+.fachada{
+    grid-area: imagen;
+}
+.div1{
+    grid-area: h2;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    background-color: $negro;
+    color: $negro;
+    line-height: 1.6;
+
+}
+.div2{
+    grid-area: mision;
+    font-size: 1.5rem;
+    padding-left: 3rem;
+    text-align: left;
+    background-color: black;
+    color: white;
+    padding-bottom: 5rem;
+    line-height: 1.6;
+}
+.div3{
+    grid-area: vision;
+    font-size: 1.5rem;
+    padding-right: 3rem;
+    text-align: left;
+    background-color: black;
+    color: white;
+    padding-bottom: 5rem;
+    line-height: 1.6;
+}
+nav{
+    grid-area: contacto;
+}
+footer{
+    grid-area: footer;
+
+}
+
+.mayusculas{
+    text-transform: uppercase;
+}
+
+.Contacto {
+    font-size: 1.6rem;
+    text-align: center;
+}
