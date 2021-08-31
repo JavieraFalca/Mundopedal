@@ -1,97 +1,68 @@
-.gridQuienesContacto{
+
+
+.divQuienesSomos {
+    background-color: $negro;
+    color: $blanco;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.fotoHistoria{
+    width: 100%;
+}
+.quienesSomos{
+    text-transform: uppercase;
+    text-align: center;
+}
+.textoQuienesSomos{
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
+
+.misionVision{
     display: grid;
     grid-template-areas: 
-    "imagen imagen"
-    "h2 h2"
-    "article article"
     "mision vision"
     "textoMision textoVision";
 
     grid-template-columns: 1fr 1fr;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    height: auto;
-    justify-content: center;
-    line-height: 2rem;
-
-}
-.fotoHistoria{
-    grid-area: imagen;
-}
-.quienesSomos{
-    grid-area: h2;
-    text-transform: uppercase;
-    text-align: center;
-}
-.textoQuienesSomos{
-    grid-area: article;
-    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: $negro;
+    color: $blanco;
 }
 .mision{
     grid-area: mision;
     text-transform: uppercase;
     text-align: center;
+    font-size: 2rem;
 }
 .textoMision{
     grid-area: textoMision;
+    font-size: 1.5rem;
+    line-height: 1.6;
 }
 .vision{
     grid-area: vision;
     text-transform: uppercase;
     text-align: center;
+    font-size: 2rem;
 
 }
 .textoVision{
     grid-area: textoVision;
-}
-
-
-
-.div1{
-    grid-area: h2;
-    text-align: center;
     font-size: 1.5rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 3rem;
-    padding-bottom: 5rem;
-    background-color: black;
-    color: white;
-    line-height: 1.6;
-
-}
-.div2{
-    grid-area: mision;
-    font-size: 1.5rem;
-    padding-left: 3rem;
-    text-align: left;
-    background-color: black;
-    color: white;
-    padding-bottom: 5rem;
     line-height: 1.6;
 }
-.div3{
-    grid-area: vision;
-    font-size: 1.5rem;
-    padding-right: 3rem;
-    text-align: left;
-    background-color: black;
-    color: white;
-    padding-bottom: 5rem;
-    line-height: 1.6;
-}
-nav{
-    grid-area: contacto;
-}
-footer{
-    grid-area: footer;
 
-}
+
 
 
 .Contacto {
     font-size: 1.6rem;
     text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }

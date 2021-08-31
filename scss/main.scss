@@ -19,7 +19,7 @@
 *{
     margin: 0;
     padding: 0;
-    border: solid 1px red;
+   /* border: solid 1px red; */
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
@@ -29,6 +29,13 @@ html {
 }
 
 /* nabarrrrrr*/
+.navbar{
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    a{
+        font-size: 1.5rem;
+    }
+}
 nav a img{
     width: 200px;
 }
@@ -40,7 +47,6 @@ header{
     text-transform: uppercase;
     justify-content: space-around;
     color: $negro;
-    font-size: 1.5rem;
     justify-content: space-evenly;
 
 }
@@ -50,10 +56,21 @@ footer{
     font-size: 1.5rem;
     background-color: $negro;
     color: $blanco;
+    padding-top: 3rem;
+}
+.fuentesFooter{
+    text-decoration: none;
+    a{
+        color: $blanco;
+    }
 }
 footer h6{
     font-size: 1.5rem;
     text-align: center;
+
+    img{
+        width: 200px;
+    }
 }
 
 .h1 {

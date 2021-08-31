@@ -5,10 +5,11 @@
   flex-direction: row;
   align-items: baseline;
   justify-content: space-evenly;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
   text-align: center;
-  padding: 2rem;
-  width: 100%; }
+  padding: 3rem;
+  width: 100%;
+  background-color: #cccccc; }
 
 div div img {
   width: 80px;
@@ -44,33 +45,41 @@ div div p {
 
 div h2 {
   font-weight: bold;
-  padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: bolder;
   text-transform: uppercase; }
 
 .historia2 {
   font-size: 1.5rem; }
 
 .historia3 {
+  text-align: center;
   font-size: 1.8rem;
   text-transform: uppercase;
   font-weight: bolder;
   background-color: rgba(43, 77, 56, 0.5);
   padding: 2rem;
   transition: 0.8s; }
+  .historia3 a {
+    text-decoration: none;
+    color: #cccccc; }
 
 .historia3:hover {
-  transform: scale(1.2, 1.2); }
+  transform: scale(1.2, 1.2);
+  color: #cccccc; }
 
 /* Marcas con las que trabajamos*/
 .marcasConLasQueTrabajamos {
   text-transform: uppercase;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #000000;
   background-color: #FFFFFF;
   font-weight: bold;
-  padding-top: 3rem; }
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
 
 .flexMarcas {
   display: flex;
@@ -86,8 +95,7 @@ div h2 {
     align-items: baseline;
     padding-bottom: 1rem;
     text-align: center;
-    padding: 2rem;
-    background-color: #cccccc; }
+    padding: 2rem; }
   .flexMarcas {
     display: flex;
     flex-direction: column;
@@ -111,87 +119,61 @@ div h2 {
 .imgProt:hover {
   transform: scale(0.8, 0.8); }
 
-.gridQuienesContacto {
-  display: grid;
-  grid-template-areas: "imagen imagen" "h2 h2" "article article" "mision vision" "textoMision textoVision";
-  grid-template-columns: 1fr 1fr;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  height: auto;
-  justify-content: center;
-  line-height: 2rem; }
+.divQuienesSomos {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
 
 .fotoHistoria {
-  grid-area: imagen; }
+  width: 100%; }
 
 .quienesSomos {
-  grid-area: h2;
   text-transform: uppercase;
   text-align: center; }
 
 .textoQuienesSomos {
-  grid-area: article;
-  text-align: center; }
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.6; }
+
+.misionVision {
+  display: grid;
+  grid-template-areas: "mision vision" "textoMision textoVision";
+  grid-template-columns: 1fr 1fr;
+  box-sizing: border-box;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #000000;
+  color: #FFFFFF; }
 
 .mision {
   grid-area: mision;
   text-transform: uppercase;
-  text-align: center; }
+  text-align: center;
+  font-size: 2rem; }
 
 .textoMision {
-  grid-area: textoMision; }
+  grid-area: textoMision;
+  font-size: 1.5rem;
+  line-height: 1.6; }
 
 .vision {
   grid-area: vision;
   text-transform: uppercase;
-  text-align: center; }
+  text-align: center;
+  font-size: 2rem; }
 
 .textoVision {
-  grid-area: textoVision; }
-
-.div1 {
-  grid-area: h2;
-  text-align: center;
+  grid-area: textoVision;
   font-size: 1.5rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
-  padding-top: 3rem;
-  padding-bottom: 5rem;
-  background-color: black;
-  color: white;
   line-height: 1.6; }
-
-.div2 {
-  grid-area: mision;
-  font-size: 1.5rem;
-  padding-left: 3rem;
-  text-align: left;
-  background-color: black;
-  color: white;
-  padding-bottom: 5rem;
-  line-height: 1.6; }
-
-.div3 {
-  grid-area: vision;
-  font-size: 1.5rem;
-  padding-right: 3rem;
-  text-align: left;
-  background-color: black;
-  color: white;
-  padding-bottom: 5rem;
-  line-height: 1.6; }
-
-nav {
-  grid-area: contacto; }
-
-footer {
-  grid-area: footer; }
 
 .Contacto {
   font-size: 1.6rem;
-  text-align: center; }
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
 
 .proteTexto {
   text-align: center;
@@ -211,36 +193,69 @@ footer {
 .imgProt:hover {
   transform: scale(0.8, 0.8); }
 
-.frenosMecanicosTitulo {
-  text-align: center;
-  padding-top: 3rem; }
+.mantencionPintura {
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: 2rem;
+  text-align: center; }
 
 .frenosMecanicosDescrip {
-  text-align: center;
-  padding: 1rem;
-  font-size: 1.5rem; }
+  text-align: left;
+  font-size: 1.5rem;
+  padding-bottom: 3rem; }
 
 .pinturaHorno {
   text-align: center;
   padding-top: 3rem; }
 
 .fondoMantenciones--frenosMecanicos {
-  background-color: #cccccc; }
+  background-color: #cccccc;
+font-size: 1.5rem;
+padding-bottom: 3rem; }
 
 .fondoMantenciones--frenosHidraulicos {
-  background-color: #FFFFFF; }
+  background-color: #FFFFFF;
+font-size: 1.5rem;
+padding-bottom: 3rem;}
 
 .fondoMantenciones--pintura {
-  background-color: #A8D47A; }
+  background-color: #A8D47A;
+font-size: 1.5rem;
+padding-bottom: 3rem;}
+
+.tituloh1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3rem; }
+
+.tituloh1P {
+  text-align: center;
+  font-size: 1.5rem; }
+
+.tituloh1Div {
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
 
 /*Valores Ruedas*/
+.tituloh2 {
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase; }
+
+.tituloh2P {
+  text-align: center;
+  font-size: 1.5rem; }
+
 .valoresRuedas {
   display: grid;
   grid-template-areas: "basico competicion" "valor1 valor2" "lista1 lista2" "p1 p2";
   grid-template-columns: 1fr 1fr;
   box-sizing: border-box;
   text-align: center;
-  background-color: #dbdada; }
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-color: #3AA640;
+  border-bottom: 2px; }
 
 .basico {
   grid-area: basico;
@@ -302,13 +317,17 @@ footer {
   color: gray;
   font-size: 1.5rem; }
 
+/* REGULACION DE CAMBIOS */
 .valoresCambios {
   display: flex;
-  font-size: 1em; }
+  font-size: 1,5rem;
+  padding-bottom: 3rem;
+  padding-top: 3rem; }
 
 .valoresDiv {
   font-size: 1em;
-  text-align: left; }
+  text-align: left;
+  width: 40%; }
 
 .valorCambios {
   grid-area: valor1;
@@ -316,6 +335,9 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 4rem; }
+
+.valoresCambios2 {
+  width: 60%; }
 
 .ulCambios {
   font-size: 1.5rem; }
@@ -391,30 +413,29 @@ footer {
 /* servicio tecnico autorizado trek*/
 .divtrek {
   display: grid;
-  grid-template-areas: "header header" "h2 h2" "img texto" "footer footer";
+  grid-template-areas: "header header" "h1 h1" "img texto" "footer footer";
   grid-template-columns: 1fr 2fr;
   box-sizing: border-box; }
 
 header {
   grid-area: header; }
 
-h2 {
-  grid-area: h2; }
+h1 {
+  grid-area: h1;
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: 2rem;
+  text-align: center; }
 
 img {
   grid-area: img; }
 
 article {
-  grid-area: texto; }
+  grid-area: texto;
+  padding-left: 3rem; }
 
 footer {
   grid-area: footer; }
-
-.servAut {
-  text-transform: uppercase;
-  font-size: 2rem;
-  text-align: center;
-  padding: 2rem; }
 
 img {
   display: flex;
@@ -451,7 +472,7 @@ article ol {
 * {
   margin: 0;
   padding: 0;
-  border: solid 1px red;
+  /* border: solid 1px red; */
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box; }
 
@@ -459,6 +480,12 @@ html {
   font-size: 62.5%; }
 
 /* nabarrrrrr*/
+.navbar {
+  margin-bottom: 3rem;
+  margin-top: 1rem; }
+  .navbar a {
+    font-size: 1.5rem; }
+
 nav a img {
   width: 200px; }
 
@@ -470,18 +497,25 @@ header {
   text-transform: uppercase;
   justify-content: space-around;
   color: #000000;
-  font-size: 1.5rem;
   justify-content: space-evenly; }
 
 /*Footerr*/
 footer {
   font-size: 1.5rem;
   background-color: #000000;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  padding-top: 3rem; }
+
+.fuentesFooter {
+  text-decoration: none; }
+  .fuentesFooter a {
+    color: #FFFFFF; }
 
 footer h6 {
   font-size: 1.5rem;
   text-align: center; }
+  footer h6 img {
+    width: 200px; }
 
 .h1 {
   color: #000000;

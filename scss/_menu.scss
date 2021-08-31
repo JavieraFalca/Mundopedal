@@ -1,14 +1,18 @@
 /* grid de informaciones */
 
+
+
+
 .informaciones{
     display: flex;
     flex-direction: row;
     align-items: baseline;
     justify-content: space-evenly;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
     text-align: center;
-    padding: 2rem;
+    padding: 3rem;
     width: 100%;
+    background-color: $gris;
 }
 
 div div img{
@@ -50,23 +54,33 @@ div div p{
 
 div h2{
 font-weight: bold;
-padding-top: 3rem;
-padding-bottom: 2rem;
+padding-top: 4rem;
+padding-bottom: 1rem;
+font-size: 2.5rem;
+font-weight: bolder;
 text-transform: uppercase;
 }
 .historia2{
 font-size: 1.5rem;
 }
 .historia3{
+text-align: center;
 font-size: 1.8rem;
 text-transform: uppercase;
 font-weight: bolder;
 background-color:rgba(43,77,56,0.5);
 padding: 2rem;
 transition: 0.8s;
+
+    a{
+    text-decoration: none;
+    color: $gris;
+
+}
 }
 .historia3:hover{
 transform: scale(1.2,1.2);
+color: $gris;
 }
 
 
@@ -74,11 +88,12 @@ transform: scale(1.2,1.2);
 .marcasConLasQueTrabajamos {
     text-transform: uppercase;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: $negro;
     background-color: $blanco;
     font-weight: bold;
     padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 .flexMarcas {
     display: flex;
@@ -97,15 +112,6 @@ $ancho:1500px;
         padding-bottom: 1rem;
         text-align: center;
         padding: 2rem;
-
-        @if $ancho < 600px 
-        {
-        background-color: $blanco;
-            }
-        @else {
-            background-color: $gris;
-        }
-
     }
 
     .flexMarcas {
