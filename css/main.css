@@ -128,10 +128,6 @@ div h2 {
 .fotoHistoria {
   width: 100%; }
 
-.quienesSomos {
-  text-transform: uppercase;
-  text-align: center; }
-
 .textoQuienesSomos {
   text-align: center;
   font-size: 1.5rem;
@@ -209,24 +205,13 @@ div h2 {
   padding-top: 3rem; }
 
 .fondoMantenciones--frenosMecanicos {
-  background-color: #cccccc;
-font-size: 1.5rem;
-padding-bottom: 3rem; }
+  background-color: #cccccc; }
 
 .fondoMantenciones--frenosHidraulicos {
-  background-color: #FFFFFF;
-font-size: 1.5rem;
-padding-bottom: 3rem;}
+  background-color: #FFFFFF; }
 
 .fondoMantenciones--pintura {
-  background-color: #A8D47A;
-font-size: 1.5rem;
-padding-bottom: 3rem;}
-
-.tituloh1 {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 3rem; }
+  background-color: #A8D47A; }
 
 .tituloh1P {
   text-align: center;
@@ -422,10 +407,9 @@ header {
 
 h1 {
   grid-area: h1;
-  text-transform: uppercase;
-  font-size: 2rem;
   padding: 2rem;
-  text-align: center; }
+  text-align: center;
+  font-weight: 700; }
 
 img {
   grid-area: img; }
@@ -478,6 +462,16 @@ article ol {
 
 html {
   font-size: 62.5%; }
+
+h1 {
+  font-family: 'Galada', cursive;
+  font-size: 4rem;
+  text-align: center; }
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase; }
 
 /* nabarrrrrr*/
 .navbar {
