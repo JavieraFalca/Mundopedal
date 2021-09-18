@@ -1,29 +1,38 @@
-.mantencionPintura{
+.texto{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.mantenciones{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.mantencion{
     text-transform: uppercase;
     font-size: 2rem;
-    padding: 2rem;
     text-align: center;
 }
-.frenosMecanicosDescrip{
-    text-align: left;
+.mantencionDescripcion{
+    text-align: center;
     font-size: 1.5rem;
     padding-bottom: 3rem;
 }
-.pinturaHorno
-{
-    text-align: center;
+.pintura{
     padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
 }
-    $mantenciones: 
-    (frenosMecanicos: $gris, 
-    frenosHidraulicos: $blanco, 
-    pintura: $verdeClaro
-    );
-
-    @each $manten, $color in $mantenciones{
-        .fondoMantenciones--#{$manten}{
-            background-color: $color;
-        }
-    
+.botones{
+    background-color: $verde;
+    color: $blanco;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
 }

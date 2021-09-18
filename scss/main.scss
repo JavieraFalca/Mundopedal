@@ -7,6 +7,8 @@
 @import "mantenciones";
 @import "valoresST";
 @import "servicioAutorizadoTrek";
+@import "servicioTecnicoHall";
+
 
 
 /*Variables*/
@@ -43,7 +45,11 @@ h2{
     margin-top: 1rem;
     a{
         font-size: 1.5rem;
+        color: $negro;
     }
+}
+.navbar a:hover{
+    color: $verde;
 }
 nav a img{
     width: 200px;

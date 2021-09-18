@@ -21,7 +21,9 @@ div div img {
 .infoTitulo {
   text-transform: uppercase;
   font-weight: bolder;
-  font-size: 2rem; }
+  font-size: 2rem;
+  padding-top: 2rem;
+  color: #3AA640; }
 
 div div p {
   font-size: 1.5rem; }
@@ -189,269 +191,120 @@ div h2 {
 .imgProt:hover {
   transform: scale(0.8, 0.8); }
 
-.mantencionPintura {
+.texto {
+  text-align: center;
+  font-size: 1.5rem; }
+
+.mantenciones {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.mantencion {
   text-transform: uppercase;
   font-size: 2rem;
-  padding: 2rem;
   text-align: center; }
 
-.frenosMecanicosDescrip {
-  text-align: left;
+.mantencionDescripcion {
+  text-align: center;
   font-size: 1.5rem;
   padding-bottom: 3rem; }
 
-.pinturaHorno {
-  text-align: center;
-  padding-top: 3rem; }
+.pintura {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
 
-.fondoMantenciones--frenosMecanicos {
-  background-color: #cccccc; }
+.botones {
+  background-color: #3AA640;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center; }
 
-.fondoMantenciones--frenosHidraulicos {
-  background-color: #FFFFFF; }
-
-.fondoMantenciones--pintura {
-  background-color: #A8D47A; }
-
-.tituloh1P {
-  text-align: center;
-  font-size: 1.5rem; }
-
-.tituloh1Div {
-  padding-top: 2rem;
-  padding-bottom: 2rem; }
-
-/*Valores Ruedas*/
 .tituloh2 {
   text-align: center;
   font-size: 2.5rem;
+  text-transform: uppercase;
+  padding-top: 3rem; }
+
+.titulos {
+  font-size: 2rem;
+  text-align: center;
   text-transform: uppercase; }
 
-.tituloh2P {
+.valor {
+  font-size: 5rem;
   text-align: center;
-  font-size: 1.5rem; }
-
-.valoresRuedas {
-  display: grid;
-  grid-template-areas: "basico competicion" "valor1 valor2" "lista1 lista2" "p1 p2";
-  grid-template-columns: 1fr 1fr;
-  box-sizing: border-box;
-  text-align: center;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  border-color: #3AA640;
-  border-bottom: 2px; }
-
-.basico {
-  grid-area: basico;
-  text-transform: uppercase;
-  font-size: 2rem;
+  color: #3AA640;
   font-weight: bold; }
 
-.valor1 {
-  grid-area: valor1;
-  color: green;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 4rem; }
-
-.competicion {
-  grid-area: competicion;
-  text-transform: uppercase;
-  font-size: 2rem;
-  font-weight: bold; }
-
-.valor2 {
-  grid-area: valor2;
-  color: green;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 4rem; }
-
-.lista1 {
-  grid-area: lista1;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
+.lista {
+  padding-left: 2rem;
+  padding-top: 2rem;
   font-size: 1.5rem;
-  justify-content: center;
-  line-height: 2rem;
-  list-style-position: inside;
-  padding-left: 20px;
-  width: 90%; }
+  text-align: left; }
 
-.lista2 {
-  grid-area: lista2;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  font-size: 1.5rem;
-  justify-content: center;
-  line-height: 2rem;
-  list-style-position: inside;
-  padding-left: 20px;
-  width: 90%; }
+.directoTienda {
+  font-size: 1.2rem;
+  font-style: oblique; }
 
-.p1 {
-  grid-area: p1;
-  color: gray;
-  font-size: 1.5rem; }
+.bordes {
+  padding-left: 4rem;
+  padding-right: 4rem; }
 
-.p2 {
-  grid-area: p2;
-  color: gray;
-  font-size: 1.5rem; }
-
-/* REGULACION DE CAMBIOS */
-.valoresCambios {
-  display: flex;
-  font-size: 1,5rem;
+.separacion {
   padding-bottom: 3rem;
   padding-top: 3rem; }
 
-.valoresDiv {
-  font-size: 1em;
-  text-align: left;
-  width: 40%; }
+.fondo {
+  background-color: #A8D47A; }
 
-.valorCambios {
-  grid-area: valor1;
-  color: green;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 4rem; }
-
-.valoresCambios2 {
-  width: 60%; }
-
-.ulCambios {
-  font-size: 1.5rem; }
-
-.valoresFrenos {
-  display: grid;
-  grid-template-areas: "Mecanico Hidraulico" "valor1 valor2" "lista1 lista2" "p1 p2";
-  grid-template-columns: 1fr 1fr;
-  box-sizing: border-box;
-  text-align: center;
-  background-color: #dbdada; }
-
-.mecanico {
-  grid-area: Mecanico;
-  text-transform: uppercase;
-  font-size: 2rem;
-  font-weight: bold; }
-
-.hidraulico {
-  grid-area: Hidraulico;
-  text-transform: uppercase;
-  font-size: 2rem;
-  font-weight: bold; }
-
-.valor1 {
-  grid-area: valor1;
-  color: green;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 4rem; }
-
-.valor2 {
-  grid-area: valor2;
-  color: green;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 4rem; }
-
-.lista1 {
-  grid-area: lista1;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  font-size: 1.5rem;
-  justify-content: center;
-  line-height: 2rem;
-  list-style-position: inside;
-  padding-left: 20px;
-  width: 90%; }
-
-.lista2 {
-  grid-area: lista2;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  font-size: 1.5rem;
-  justify-content: center;
-  line-height: 2rem;
-  list-style-position: inside;
-  padding-left: 20px;
-  width: 90%; }
-
-.p1 {
-  grid-area: p1;
-  color: gray;
-  font-size: 1.5rem; }
-
-.p2 {
-  grid-area: p2;
-  color: gray;
-  font-size: 1.5rem; }
-
-/* servicio tecnico autorizado trek*/
-.divtrek {
-  display: grid;
-  grid-template-areas: "header header" "h1 h1" "img texto" "footer footer";
-  grid-template-columns: 1fr 2fr;
-  box-sizing: border-box; }
-
-header {
-  grid-area: header; }
-
-h1 {
-  grid-area: h1;
-  padding: 2rem;
-  text-align: center;
-  font-weight: 700; }
-
-img {
-  grid-area: img; }
-
-article {
-  grid-area: texto;
-  padding-left: 3rem; }
-
-footer {
-  grid-area: footer; }
-
-img {
-  display: flex;
+.trekImg {
   width: 100%;
   height: auto;
-  align-items: center; }
+  align-items: left;
+  margin-left: 0%; }
+
+.fondoTrek {
+  background-color: #000000; }
 
 .textoTrek {
-  display: flex;
   background-color: #000000;
   color: #FFFFFF;
-  text-align: left;
-  font-size: 1.5rem;
-  flex-direction: column;
-  text-align: left;
-  height: auto;
-  justify-content: center;
-  line-height: 2rem; }
+  padding-right: 10rem;
+  padding-left: 3rem; }
 
-p {
-  padding: 10px; }
-
-article ol {
-  list-style-position: inside;
-  padding-left: 20px;
-  width: 90%; }
-
-.comoFuncionaGarantia {
-  font-weight: bolder;
-  font-size: 1.8rem; }
+.titulosTrek {
+  font-size: 2rem;
+  font-weight: 500;
+  padding-top: 3rem;
+  text-align: left; }
 
 /* servicio tecnico autorizado trek*/
+.hall {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+  padding-bottom: 3rem;
+  padding-right: 2rem; }
+
+.imagenesHall {
+  width: 80%;
+  height: auto;
+  align-items: center;
+  transition: 0,8s; }
+
+.imagenesHall:hover {
+  transform: scale(0.8, 0.8); }
+
 /*Variables*/
 * {
   margin: 0;
@@ -478,7 +331,11 @@ h2 {
   margin-bottom: 3rem;
   margin-top: 1rem; }
   .navbar a {
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    color: #000000; }
+
+.navbar a:hover {
+  color: #3AA640; }
 
 nav a img {
   width: 200px; }

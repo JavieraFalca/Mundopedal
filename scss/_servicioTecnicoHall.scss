@@ -1,0 +1,20 @@
+.hall{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+    padding-right: 2rem;
+
+}
+
+.imagenesHall {
+    width: 80%;
+    height: auto;
+    align-items: center;
+    transition: 0,8s;
+}
+.imagenesHall:hover{
+    transform: scale(0.8,0.8);
+}
