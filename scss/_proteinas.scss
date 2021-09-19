@@ -1,18 +1,30 @@
-.proteTexto{
-    text-align: center;
-    font-size: 1.5rem;
-}
-.proteinasImg{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
+
 .imgProt{
     width: 300px;
     height: auto;
-    align-items: center;
     transition: 0,8s;
+    overflow: hidden;
 }
 .imgProt:hover{
     transform: scale(0.8,0.8);
+}
+
+.ecommerce{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.comprar{
+    background-color: $verde;
+    color: $blanco;
+    font-size: 1.5rem;
+}
+.producto{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+.valorProducto{
+    font-size: 1.5rem;
 }

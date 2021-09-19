@@ -103,7 +103,9 @@ color: $gris;
     align-items: center;
     justify-content: space-evenly;
     background-color: transparent;
+    padding-bottom: 2rem;
 }
+
 
 $ancho:1500px;
 @media (max-width: 600px){
@@ -120,6 +122,9 @@ $ancho:1500px;
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .marcas{
+        padding-bottom: 2rem;
     }
 
 }

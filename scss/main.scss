@@ -43,6 +43,7 @@ h2{
 .navbar{
     margin-bottom: 3rem;
     margin-top: 1rem;
+
     a{
         font-size: 1.5rem;
         color: $negro;
@@ -61,38 +62,53 @@ nav a ul li{
 header{
     text-transform: uppercase;
     justify-content: space-around;
-    color: $negro;
-    justify-content: space-evenly;
-
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
-/*Footerr*/ 
-footer{
-    font-size: 1.5rem;
-    background-color: $negro;
-    color: $blanco;
-    padding-top: 3rem;
-}
-.fuentesFooter{
-    text-decoration: none;
-    a{
-        color: $blanco;
-    }
-}
-footer h6{
-    font-size: 1.5rem;
-    text-align: center;
+/*footer*/
+.footer{
+    background: $negro;
+    color:white;
 
     img{
-        width: 200px;
+    width: 200px;
+    padding-bottom: 2rem;
     }
-}
+    h4{
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-size: 1.5rem;
+        padding-bottom: 2rem;
+    }
+    
+    .links{
+      ul {
+          list-style-type: none;
+          text-decoration: none;
+          font-size: 1.5rem;
 
-.h1 {
+        }
+      li a{
+        color: white;
+        transition: color .2s;
+        &:hover{
+          text-decoration:none;
+          color: $verdeClaro;
+          }
+      }
+    }  
+    .copyright p{
+        border-top:1px solid rgba(255,255,255,.1);} 
+  }
+.separacion{
+    padding-bottom: rem;
+}
+/*footer*/ 
+
+h1 {
     color: $negro;
-    text-transform: uppercase;
-    font-weight: bolder;
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
 }
 
@@ -102,75 +118,6 @@ h2 {
 }
 
 
-
-/* Contacto y sobre nosotros */
-.gridQuienesContacto{
-    display: grid;
-    grid-template-areas: 
-    "header header"
-    "imagen imagen"
-    "h2 h2"
-    "article article"
-    "mision vision"
-    "contacto contacto"
-    "footer footer";
-    grid-template-columns: 1fr 1fr;
-    box-sizing: border-box;
-
-
-}
-header{
-    grid-area: header;
-}
-.fachada{
-    grid-area: imagen;
-}
-.div1{
-    grid-area: h2;
-    text-align: center;
-    font-size: 1.5rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 3rem;
-    padding-bottom: 5rem;
-    background-color: $negro;
-    color: $negro;
-    line-height: 1.6;
-
-}
-.div2{
-    grid-area: mision;
-    font-size: 1.5rem;
-    padding-left: 3rem;
-    text-align: left;
-    background-color: black;
-    color: white;
-    padding-bottom: 5rem;
-    line-height: 1.6;
-}
-.div3{
-    grid-area: vision;
-    font-size: 1.5rem;
-    padding-right: 3rem;
-    text-align: left;
-    background-color: black;
-    color: white;
-    padding-bottom: 5rem;
-    line-height: 1.6;
-}
-nav{
-    grid-area: contacto;
-}
-footer{
-    grid-area: footer;
-
-}
-
-.mayusculas{
-    text-transform: uppercase;
-}
-
-.Contacto {
-    font-size: 1.6rem;
-    text-align: center;
+.blanco{
+    color: $blanco;
 }
