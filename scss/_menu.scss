@@ -105,9 +105,12 @@ color: $gris;
     background-color: transparent;
     padding-bottom: 2rem;
 }
+.instagram{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
 
 
-$ancho:1500px;
 @media (max-width: 576px){
     .informaciones{
         display: flex;

@@ -91,6 +91,10 @@ div h2 {
   background-color: transparent;
   padding-bottom: 2rem; }
 
+.instagram {
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+
 @media (max-width: 576px) {
   .informaciones {
     display: flex;
@@ -259,6 +263,9 @@ div h2 {
   font-weight: bold;
   text-align: center; }
 
+.imagMantenciones {
+  overflow: auto; }
+
 @media (max-width: 576px) {
   .mantenciones {
     flex-direction: column;
@@ -364,7 +371,6 @@ div h2 {
 * {
   margin: 0;
   padding: 0;
-  /* border: solid 1px red; */
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box; }
 

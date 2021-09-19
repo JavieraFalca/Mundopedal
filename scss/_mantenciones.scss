@@ -36,7 +36,9 @@
     font-weight: bold;
     text-align: center;
 }
-
+.imagMantenciones {
+    overflow: auto;
+}
 @media (max-width: 576px) {
     .mantenciones{
         flex-direction: column;
