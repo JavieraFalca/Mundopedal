@@ -108,7 +108,28 @@ color: $gris;
 
 
 $ancho:1500px;
-@media (max-width: 600px){
+@media (max-width: 576px){
+    .informaciones{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        padding-bottom: 1rem;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .flexMarcas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .marcas{
+        padding-bottom: 2rem;
+    }
+
+}
+
+@media (max-width: 900px) {
     .informaciones{
         display: flex;
         flex-direction: column;

@@ -18,3 +18,21 @@
 .imagenesHall:hover{
     transform: scale(0.8,0.8);
 }
+
+
+@media (max-width: 576px) {
+    .hall{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .imagenesHall{
+        width: 60%;
+    }
+}
+@media (max-width: 900px) {
+    .hall{
+        flex-direction: column;
+        align-items: center;
+    }
+}

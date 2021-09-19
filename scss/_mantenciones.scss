@@ -36,3 +36,17 @@
     font-weight: bold;
     text-align: center;
 }
+
+@media (max-width: 576px) {
+    .mantenciones{
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+@media (max-width: 900px) {
+    .mantenciones{
+        flex-direction: column;
+        align-items: center;
+    }
+}

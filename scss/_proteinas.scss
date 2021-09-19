@@ -28,3 +28,20 @@
 .valorProducto{
     font-size: 1.5rem;
 }
+
+
+@media (max-width: 576px) {
+    .ecommerce{
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+@media (max-width: 900px) {
+    .ecommerce{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+

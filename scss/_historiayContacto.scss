@@ -16,44 +16,24 @@
     line-height: 1.6;
 }
 
-
-.misionVision{
-    display: grid;
-    grid-template-areas: 
-    "mision vision"
-    "textoMision textoVision";
-
-    grid-template-columns: 1fr 1fr;
-    box-sizing: border-box;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+.fondoMisionVision{
     background-color: $negro;
     color: $blanco;
+
 }
-.mision{
-    grid-area: mision;
+.misionVision{
     text-transform: uppercase;
     text-align: center;
     font-size: 2rem;
 }
-.textoMision{
-    grid-area: textoMision;
-    font-size: 1.5rem;
-    line-height: 1.6;
-}
-.vision{
-    grid-area: vision;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 2rem;
-
-}
-.textoVision{
-    grid-area: textoVision;
+.textoMisionVision{
     font-size: 1.5rem;
     line-height: 1.6;
 }
 
+.colorNegro{
+    background-color: $negro;
+}
 
 
 
@@ -62,4 +42,19 @@
     text-align: center;
     padding-top: 3rem;
     padding-bottom: 3rem;
+}
+
+@media (max-width: 576px) {
+    .misionVision{
+        grid-template-columns: 1fr;
+        box-sizing: border-box;
+
+    }
+}
+@media (max-width: 900px) {
+    .misionVision{
+        grid-template-columns: 1fr;
+        box-sizing: border-box;
+
+    }
 }
